@@ -1,13 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head >
     <link rel="stylesheet" type="text/css" href="index.css">
-    <style>
-        body {
-        background-color: #a5d1f5;
-        }
-    </style>
+   
     <meta charset="UTF-8">
     <title>The Fascinating World of Octopuses</title>
 </head>
@@ -15,70 +11,70 @@
 <body>
     <!-- Header Section -->
     <div id="header">
-        <h1>The Fascinating World of Octopuses</h1>
-        <p>Welcome to this intriguing corner of the internet!</p>
+        <h1 class = "h1">The Fascinating World of Octopuses</h1>
+        <p class = "white">Welcome to this intriguing corner of the internet!</p>
     </div>
 
     <!-- Main Content -->
     <div id="main-content">
-
+    
         <!-- Introduction -->
-        <h2>Introduction</h2>
+        <h2 class = "mainheader"> INTRODUCTION </h2>
         <p>
             Octopuses are among the most fascinating creatures in the ocean.
             They are known for their intelligence and remarkable adaptability.
         </p>
 
         <!-- Amazing Facts -->
-        <h3>Amazing Facts</h3>
+        <h3 class = "mainheader"> AMAZING FACTS </h3>
         <!-- Unordered list -->
-        <ul>
-            <li>They have three hearts.</li>
-            <li>They can change color.</li>
-            <li>They are masters of camouflage.</li>
+        <ul class = "list">
+            <li style = "color: #1b1c6d">They have three hearts.</li>
+            <li style = "color: #1b1c6d">They can change color.</li>
+            <li style = "color: #1b1c6d">They are masters of camouflage.</li>
         </ul>
 
         <!-- Anatomy -->
-        <h4>Anatomy</h4>
+        <h4 class = "mainheader">Anatomy</h4>
         <p>
             An octopus's anatomy is as unique as it is fascinating.
             The <span class="important">mantle</span>, for example, helps in respiration and jet propulsion.
         </p>
 
         <!-- Comparison with other Cephalopods -->
-        <h5>Comparison with Other Cephalopods</h5>
+        <h5 class = "mainheader">Comparison with Other Cephalopods</h5>
         <!-- Ordered list -->
         <ol>
-            <li>Squid</li>
-            <li>Cuttlefish</li>
-            <li>Nautilus</li>
+            <li  style = "color: #1b1c6d" >Squid</li>
+            <li style = "color: #1b1c6d">Cuttlefish</li>
+            <li style = "color: #1b1c6d">Nautilus</li>
         </ol>
 
         <!-- External Resources -->
-        <h6>External Resources</h6>
+        <h6 class = "mainheader">External Resources</h6>
         <p>
             For more information, visit these websites:
-            <a href="https://www.oceana.org/" target="_blank">Oceana</a> |
-            <a href="https://www.nationalgeographic.com/" target="_blank">National Geographic</a>
+            <a style="color: #2780a4" href="https://www.oceana.org/" target="_blank">Oceana</a> |
+            <a style="color: #2780a4" href="https://www.nationalgeographic.com/" target="_blank">National Geographic</a>
         </p>
 
         <!-- Fun Experiment: Octopus Quiz -->
         <div id="quiz-section">
-
+            <h2 class = "mainheader">OCTOPUS QUIZ </h2>
             <!-- Image -->
-            <img src="octopus-image.png" alt="Image of an octopus" width="100">
+            <img   class = "image" src="octopus-image.png" alt="Image of an octopus" width="50">
 
-            <h2>Octopus Quiz</h2>
+     
             <form action="/submit-quiz" method="POST">
                 <!-- Question 1 -->
-                <label for="question1">How many hearts does an octopus have?</label>
-                <input type="text" id="question1" name="question1"><br>
+                <label style = "color: #1b1c6d" for="question1">How many hearts does an octopus have?</label>
+                <input  class = "text" type="text" id="question1" name="question1"><br>
 
                 <!-- Question 2 -->
-                <label for="question2">Can octopuses change color? (Yes/No)</label>
-                <input type="text" id="question2" name="question2"><br>
+                <label style = "color: #1b1c6d" for="question2">Can octopuses change color? (Yes/No)</label>
+                <input class = "text" type="text" id="question2" name="question2"><br>
 
-                <input type="submit" value="Submit Quiz">
+                <input class = "submit" type="submit" value="Submit Quiz">
             </form>
         </div>
 
@@ -86,29 +82,29 @@
 
     <!-- Table -->
     <div id="species-table">
-        <h2>Common Octopus Species</h2>
-        <table border="1">
+        <h2 class = "mainheader">Common Octopus Species</h2>
+        <table class = "inner-table">
             <tr>
-                <th>Species</th>
-                <th>Location</th>
-                <th>Size</th>
+                <th class = "table-contentL" style="color: white">Species</th>
+                <th class = "table-contentM" style="color: white">Location</th>
+                <th class = "table-contentR" style="color: white">Size</th>
             </tr>
             <tr>
-                <td>Common Octopus</td>
-                <td>Worldwide</td>
-                <td>12-36 inches</td>
+                <td class = "table-contentL">Common Octopus</td>
+                <td  class = "table-contentM">Worldwide</td>
+                <td class = "table-contentR">12-36 inches</td>
             </tr>
             <tr>
-                <td>Giant Pacific Octopus</td>
-                <td>North Pacific</td>
-                <td>Up to 16 feet</td>
+                <td class = "table-contentL">Giant Pacific Octopus</td>
+                <td  class = "table-contentM">North Pacific</td>
+                <td class = "table-contentR">Up to 16 feet</td>
             </tr>
         </table>
     </div>
 
     <!-- Footer -->
     <div id="footer">
-        <p>
+        <p class = "footer">
             &copy; 2023 The Fascinating World of Octopuses. All rights reserved.
             <!-- HTML entities for special characters -->
             Fun Fact: The plural of "Octopus" can be both "Octopuses" &amp; "Octopi" &lt;3
